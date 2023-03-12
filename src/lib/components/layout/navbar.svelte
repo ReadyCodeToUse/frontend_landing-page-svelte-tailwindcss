@@ -48,7 +48,7 @@
 			<ul
 				class="lg:hidden menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 ml-4"
 			>
-				<li><a href="/">Homepage</a></li>
+				<li><a href="/">Home</a></li>
 				<li><a href="/">About</a></li>
 				<li><a href="/">Contacts</a></li>
 			</ul>
@@ -59,7 +59,7 @@
 	</div>
 	<!-- If screen size is large links are visualized on the top-right -->
 	<ul class="hidden lg:flex lg:navbar-end">
-		<li class="px-4"><a href="/">Homepage</a></li>
+		<li class="px-4"><a href="/">Home</a></li>
 		<li class="px-4"><a href="/">About</a></li>
 		<li class="px-4"><a href="/">Contacts</a></li>
 	</ul>
