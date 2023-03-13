@@ -1,6 +1,8 @@
 <script>
-	import Home from "$lib/components/layout/home.svelte";
+	import About from "$lib/components/layout/about.svelte";
+import Home from "$lib/components/layout/home.svelte";
 
 </script>
 
 <Home></Home>
+<About></About>
