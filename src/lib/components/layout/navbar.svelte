@@ -17,7 +17,7 @@
 	}
 </script>
 
-<div class="navbar bg-base-300 sticky top-0" id="navbar">
+<div class="navbar bg-base-300 sticky top-0 z-50" id="navbar">
 	<div class="lg:hidden dropdown navbar-end">
 		<!-- If the size is other than large to visualize links the burger menu is displayed -->
 		<label class="btn btn-circle btn-ghost swap swap-rotate">
