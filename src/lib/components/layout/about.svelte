@@ -2,26 +2,40 @@
 	import businessCardBg from '$lib/assets/business-card.jpg';
 </script>
 
-<div class="flex flex-col w-full lg:flex-row lg:px-10 lg:py-5 p-5 bg-base-300 justify-evenly">
-	<div class="card w-96 bg-base-100 shadow-xl">
-		<figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-		<div class="card-body">
-			<h2 class="card-title">Shoes!</h2>
-			<p>If a dog chews shoes whose shoes does he choose?</p>
-			<div class="card-actions justify-end">
-				<button class="btn btn-primary">Buy Now</button>
-			</div>
+<div class="hero min-h-screen bg-base-200">
+	<div class="hero-content w-screen flex-col lg:flex-row">
+		<img alt="business1" src={businessCardBg} class="max-w-sm rounded-lg shadow-2xl lg:scale-100 scale-75" />
+		<div>
+			<h1 class="text-5xl font-bold">Box Office News!</h1>
+			<p class="py-3">
+				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+				quasi. In deleniti eaque aut repudiandae et a id nisi.
+			</p>
+			<!-- <button class="btn btn-primary">Get Started</button> -->
 		</div>
 	</div>
-	<div class="divider-vertical lg:divider-horizontal" />
-	<div class="card w-96 bg-base-100 shadow-xl">
-		<figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-		<div class="card-body">
-			<h2 class="card-title">Shoes!</h2>
-			<p>If a dog chews shoes whose shoes does he choose?</p>
-			<div class="card-actions justify-end">
-				<button class="btn btn-primary">Buy Now</button>
-			</div>
+</div>
+<div class="hero min-h-screen bg-base-200">
+	<div class="hero-content w-screen flex-col lg:flex-row lg:hidden">
+		<img alt="business2" src={businessCardBg} class="max-w-sm rounded-lg shadow-2xl scale-75" />
+		<div>
+			<h1 class="text-5xl font-bold">Box Office News!</h1>
+			<p class="py-3">
+				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+				quasi. In deleniti eaque aut repudiandae et a id nisi.
+			</p>
+			<button class="btn btn-primary">Get Started</button>
 		</div>
+	</div>
+	<div class="hero-content w-screen flex-col lg:flex-row max-lg:hidden">
+		<div>
+			<h1 class="text-5xl font-bold">Box Office News!</h1>
+			<p class="py-3">
+				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+				quasi. In deleniti eaque aut repudiandae et a id nisi.
+			</p>
+			<button class="btn btn-primary">Get Started</button>
+		</div>
+		<img alt="business2" src={businessCardBg} class="max-w-sm rounded-lg shadow-2xl scale-100" />
 	</div>
 </div>
