@@ -1,19 +1,8 @@
-# create-svelte
+# Landin page template with Svelte Kit and TailwindCSS
+This is a simple demo project to help you getting started in the creation of a simple landing page made with Svelte using TailwindCSS and DaisyUI (nice little TailwindCSS wrapper) to style it out.
+You can create your own repository starting from this template already configured to use TailwindCSS and DaisyUI.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
+If your needs are different and you require different configurations refeer to Svelte npm package, Tailwind installation documentation and DaisyUI.
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
@@ -24,6 +13,20 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+
+All source code is contained in ```${root}/src```
+```
++-assets // images and static data
+|
++-components // local project components
+| |
+| +layout // layout components
+|
++-routes // check svelte documentation
+```
+I personally like to have a ```data``` and ```stores``` directories in ```${root}/src/lib/``` to keep any static data and a Svelte stores.
+
+About styling please refer to [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/) docs
 
 ## Building
 
