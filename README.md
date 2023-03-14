@@ -1,4 +1,6 @@
 # Landin page template with Svelte Kit and TailwindCSS
+Template provided by [cedrata](https://github.com/cedrata/).
+
 This is a simple demo project to help you getting started in the creation of a simple landing page made with Svelte using TailwindCSS and DaisyUI (nice little TailwindCSS wrapper) to style it out.
 You can create your own repository starting from this template already configured to use TailwindCSS and DaisyUI.
 
