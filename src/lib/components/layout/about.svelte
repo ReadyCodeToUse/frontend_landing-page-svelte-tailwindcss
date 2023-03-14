@@ -2,7 +2,7 @@
 	import businessCardBg from '$lib/assets/business-card.jpg';
 </script>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen bg-base-200" id="about">
 	<div class="hero-content w-screen flex-col lg:flex-row">
 		<img alt="business1" src={businessCardBg} class="max-w-sm rounded-lg shadow-2xl lg:scale-100 scale-75" />
 		<div>
