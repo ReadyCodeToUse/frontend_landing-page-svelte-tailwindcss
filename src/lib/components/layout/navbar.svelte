@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from "svelte";
+	import { base } from "$app/paths";
 	/**
 	 *	@type {boolean}
 	 *  @description value used to open/close the menu for smaller screens.
@@ -48,7 +49,7 @@
 			<ul
 				class="lg:hidden menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 ml-4"
 			>
-				<li><a href="/">Home</a></li>
+				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#contacts">Contacts</a></li>
 			</ul>
@@ -59,7 +60,7 @@
 	</div>
 	<!-- If screen size is large links are visualized on the top-right -->
 	<ul class="hidden lg:flex lg:navbar-end">
-		<li class="px-4"><a href="/">Home</a></li>
+		<li class="px-4"><a href="#home">Home</a></li>
 		<li class="px-4"><a href="#about">About</a></li>
 		<li class="px-4"><a href="#contacts">Contacts</a></li>
 	</ul>

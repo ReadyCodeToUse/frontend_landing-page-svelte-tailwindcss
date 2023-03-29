@@ -1,10 +1,12 @@
 # Landin page template with Svelte Kit and TailwindCSS
 Template provided by [cedrata](https://github.com/cedrata/).
 
-This is a simple demo project to help you getting started in the creation of a simple landing page made with Svelte using TailwindCSS and DaisyUI (nice little TailwindCSS wrapper) to style it out.
+This is a simple demo project to help you getting started in the creation of a simple (static content) landing page made with Svelte using TailwindCSS and DaisyUI (nice little TailwindCSS wrapper) to style it out.
 You can create your own repository starting from this template already configured to use TailwindCSS and DaisyUI.
 
 If your needs are different and you require different configurations refeer to Svelte npm package, Tailwind installation documentation and DaisyUI.
+
+The page in this template will be hosted inside github pages.
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
@@ -32,12 +34,11 @@ About styling please refer to [TailwindCSS](https://tailwindcss.com/) and [Daisy
 
 ## Building
 
-To create a production version of your app:
-
-```bash
-npm run build
+To deploy your static content to github pages run:
+```sh
+npm run gh-pages
 ```
 
-You can preview the production build with `npm run preview`.
+This will crete a ```build``` directory inside the root alogside a new branch 
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Credits to https://medium.com/mkdir-awesome/a-piece-of-cake-deploying-sveltekit-on-github-pages-bc851ec860ad
