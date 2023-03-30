@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from "svelte";
+	import { onMount } from 'svelte';
 	/**
 	 *	@type {boolean}
 	 *  @description value used to open/close the menu for smaller screens.
