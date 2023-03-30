@@ -36,9 +36,5 @@ About styling please refer to [TailwindCSS](https://tailwindcss.com/) and [Daisy
 
 To deploy your static content to github pages run:
 ```sh
-npm run gh-pages
+npm run build
 ```
-
-This will crete a ```build``` directory inside the root alongside a new branch named ```gh-pages``` that will host the static content.
-
-Credits to [Shinichi Okada](https://medium.com/@shinichiokada) and his great [article](https://medium.com/mkdir-awesome/a-piece-of-cake-deploying-sveltekit-on-github-pages-bc851ec860ad) that helped configuring this repository.
