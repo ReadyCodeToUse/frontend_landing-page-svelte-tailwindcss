@@ -1,6 +1,6 @@
 <script>
 	import { assets } from '$app/paths';
-	const bg = './' + assets + '/images/home-bg.jpg';
+	const bg = '.' + assets + '/images/home-bg.jpg';
 </script>
 <div
 	class="hero min-h-screen"

@@ -1,6 +1,6 @@
 <script>
 	import { assets } from '$app/paths';
-	const bc = './' + assets + '/images/business-card.jpg';
+	const bc = '.' + assets + '/images/business-card.jpg';
 </script>
 
 <div class="hero min-h-screen bg-base-200" id="about">
