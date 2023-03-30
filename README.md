@@ -39,6 +39,6 @@ To deploy your static content to github pages run:
 npm run gh-pages
 ```
 
-This will crete a ```build``` directory inside the root alogside a new branch 
+This will crete a ```build``` directory inside the root alongside a new branch named ```gh-pages``` that will host the static content.
 
-Credits to https://medium.com/mkdir-awesome/a-piece-of-cake-deploying-sveltekit-on-github-pages-bc851ec860ad
+Credits to [Shinichi Okada](https://medium.com/@shinichiokada) and his great [article](https://medium.com/mkdir-awesome/a-piece-of-cake-deploying-sveltekit-on-github-pages-bc851ec860ad) that helped configuring this repository.
