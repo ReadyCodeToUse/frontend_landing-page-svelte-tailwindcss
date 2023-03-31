@@ -1,9 +1,11 @@
 <script>
-    import homeBg from "$lib/assets/home-bg.jpg";
+	import { assets } from '$app/paths';
+	const bg = assets + '/images/home-bg.jpg';
 </script>
 <div
 	class="hero min-h-screen"
-	style="background-image: url('{homeBg}');"
+	style="background-image: url('{bg}');"
+	id = "home"
 >
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">
