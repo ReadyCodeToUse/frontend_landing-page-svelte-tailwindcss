@@ -32,9 +32,13 @@ I personally like to have a ```data``` and ```stores``` directories in ```${root
 
 About styling please refer to [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/) docs
 
-## Building
+## Building & Deploy
 
 To deploy your static content to github pages run:
 ```sh
 npm run build
 ```
+
+This will create a ```/docs``` directory in root to make github pages to deploy your.
+
+To enable github pages and host the page go to repository settings and enable pages on main branch searching for the ```docs/``` directory (configured directory to build the static page).
